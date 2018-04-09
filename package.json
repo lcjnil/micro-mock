@@ -1,5 +1,5 @@
 {
-  "name": "simple-mock",
+  "name": "micro-mock",
   "bin": "index.js",
   "version": "1.0.0",
   "main": "index.js",
