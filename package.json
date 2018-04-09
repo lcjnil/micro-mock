@@ -1,0 +1,14 @@
+{
+  "name": "simple-mock",
+  "bin": "index.js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.5.0",
+    "koa-router": "^7.4.0",
+    "lodash": "^4.17.5",
+    "yargs": "^11.0.0"
+  }
+}
