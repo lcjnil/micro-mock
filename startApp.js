@@ -1,5 +1,6 @@
 const Koa = require('koa');
 const Router = require('koa-router');
+const cors = require('@koa/cors');
 const isPlainObject = require('lodash/isPlainObject');
 
 const METHODS = ['GET', 'POST', 'DELETE', 'PUT'];
@@ -27,6 +28,7 @@ module.exports = function startApp(config, port) {
         })
     });
 
+    app.use(cors());
     app.use((ctx, next) => {
         console.log(ctx.method, ctx.path);
         next();
